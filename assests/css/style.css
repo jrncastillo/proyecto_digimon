@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: #003780;
+}
+
+th, tr{
+    color: #003780;
+}
+p{
+    color: white;
+}
+
+.tarjeta{
+    border: auto;
+    margin: auto;
+    padding-top: 2%;
+    display: inline-block;
+    width: auto;
+}
+
+#visible1{
+    display: none;
+}
+#visible2{
+    display: none;
+}
+
+#icono{
+    width: 110px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar{
+    background-color: #003780;
+}
+
+#nav-link{
+    color: white;
+}
+
+#imagentabla{
+    width: 100px;
+}
+
+footer{
+    background-color: #003780;
+    color: white;
+    height: 200px;
+}
+
+@media (max-width: 730px){
+    .navbar{
+        height: 100px;
+    }
+
+    #icono{
+        width: 60px;
+    }
+
+    #imagentabla{
+        width: 70px;
+    }
+}
